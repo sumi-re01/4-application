@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_action :authenticaate_user!,except: [:top]
+  before_action :authenticate_user!,except: [:top]
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   def after_sigh_in_path_for(resource)
