@@ -71,3 +71,10 @@ gem "refile-mini_magick"
 
 # ページンング機能
 gem 'kaminari', '~> 1.2.1'
+
+# Bootstrap とそれが依存しているライブラリ(jQueryの導入)
+gem 'bootstrap', '~> 4.5'
+gem 'jquery-rails'
+
+# fontawesome使うtame
+gem 'font-awesome-sass', '~> 5.13'
