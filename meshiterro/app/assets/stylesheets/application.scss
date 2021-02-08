@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ //gemに表記したものをインポート
+ //Bootstrap ※application.jsにもrequireを記載
+ @import "bootstrap";
+ //fontawesome
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
