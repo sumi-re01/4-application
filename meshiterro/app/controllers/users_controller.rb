@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
+    # userページの投稿一覧でuserに関連したもののみ
     @post_images = @user.post_images.page(params[:page]).reverse_order
   end
 
